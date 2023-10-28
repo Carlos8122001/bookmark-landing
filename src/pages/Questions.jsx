@@ -4,18 +4,18 @@ import Collapse from "../components/Collapse";
 export default function Questions() {
   return (
     <>
-      <section className="w-full h-auto my-8">
+      <section className="w-full h-auto my-8 xl:w-[60%] mx-auto">
         <span>
-          <h1 className="text-4xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 px-3 ">
+          <h1 className="text-3xl xl:text-4xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 xl:mb-8 px-3 ">
             Frequently Asked Questions
           </h1>
-          <p className="text-xl text-center font-semibold leading-8 text-[#9194a1] px-2">
+          <p className="text-base xl:text-xl  text-center font-semibold leading-8 text-[#9194a1] px-5 xl:mx-36">
             Here are some of our FAQs. If you have any other questions you’d
             like answered please feel free to email us.
           </p>
         </span>
 
-        <div className=" mx-auto w-[90%] mb-16">
+        <div className=" mx-auto w-[90%] lg:xl:w-[65%] xl:w-[65%] mb-16">
           <Collapse
             title={"What is Bookmark?"}
             text={

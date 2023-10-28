@@ -3,7 +3,7 @@ import React from "react";
 export default function NavBar() {
   return (
     <>
-      <header className="w-full h-20 flex justify-around items-center pt-8 px-6 md:pt-14 ">
+      <header className="w-full lg:pl-12 h-20 flex justify-around items-center pt-8 px-6 md:pt-14 ">
         <div className="w-full">
           <img
             src="\images\logo-bookmark.svg"
