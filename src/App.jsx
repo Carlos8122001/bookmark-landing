@@ -4,6 +4,7 @@ import HeroSection from "./pages/HeroSection";
 import Extension from "./pages/Extension";
 import Questions from "./pages/Questions";
 import Contact from "./pages/Contact";
+import Footer from "./pages/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Extension />
       <Questions />
       <Contact />
+      <Footer />
     </>
   );
 }

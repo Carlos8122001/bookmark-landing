@@ -5,16 +5,16 @@ export default function Extension() {
     <>
       <section className="w-full h-full mt-10 mb-10 flex justify-center flex-col">
         <span>
-          <h1 className="text-3xl xl:text-5xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 ">
+          <h1 className="text-3xl lg:text-5xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 ">
             Download the extension
           </h1>
-          <p className="text-lg xl:text-xl text-center font-semibold leading-8 mx-auto text-[#9194a1] px-14 xl:w-[55%]">
+          <p className="text-lg lg:text-xl text-center font-semibold leading-8 mx-auto text-[#9194a1] px-14 lg:w-[55%]">
             We’ve got more browsers in the pipeline. Please do let us know if
             you’ve got a favourite you’d like us to prioritize.
           </p>
         </span>
 
-        <section className="w-full h-full flex flex-col justify-center items-center mt-10 gap-y-10 xl:gap-x-10 xl:flex-row xl:justify-center">
+        <section className="w-full h-full flex flex-col justify-center items-center mt-10 gap-y-10 lg:gap-x-10 lg:flex-row xl:justify-center">
 
           <div className="pb-6 pt-14 w-[340px] h-full flex justify-center flex-col text-center rounded-2xl shadow-lg">
             <img
@@ -32,7 +32,7 @@ export default function Extension() {
             </div>
           </div>
 
-          <div className="pb-6 pt-14 w-[340px] h-full flex justify-center flex-col text-center rounded-2xl shadow-lg xl:mt-20">
+          <div className="pb-6 pt-14 w-[340px] h-full flex justify-center flex-col text-center rounded-2xl shadow-lg lg:mt-20">
             <img
               src="images/logo-firefox.svg"
               alt="chrome"
@@ -48,7 +48,7 @@ export default function Extension() {
             </div>
           </div>
 
-          <div className="pb-6 pt-14 w-[340px] h-full flex justify-center flex-col text-center rounded-2xl shadow-lg xl:mt-40">
+          <div className="pb-6 pt-14 w-[340px] h-full flex justify-center flex-col text-center rounded-2xl shadow-lg lg:mt-40">
             <img
               src="images/logo-opera.svg"
               alt="chrome"
@@ -63,7 +63,6 @@ export default function Extension() {
               <button className="w-[80%] py-3 rounded bg-[#5368df] font-bold text-white">Add & Install Extension</button>
             </div>
           </div>
-
         </section>
       </section>
     </>

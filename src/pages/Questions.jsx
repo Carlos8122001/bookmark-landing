@@ -6,10 +6,10 @@ export default function Questions() {
     <>
       <section className="w-full h-auto my-8 xl:w-[60%] mx-auto">
         <span>
-          <h1 className="text-3xl xl:text-4xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 xl:mb-8 px-3 ">
+          <h1 className="text-3xl lg:text-4xl whitespace-normal text-center font-bold leading-snug text-[#242946] mb-6 xl:mb-8 px-3 ">
             Frequently Asked Questions
           </h1>
-          <p className="text-base xl:text-xl  text-center font-semibold leading-8 text-[#9194a1] px-5 xl:mx-36">
+          <p className="text-base lg:text-xl  text-center font-semibold leading-8 text-[#9194a1] px-5 xl:mx-36">
             Here are some of our FAQs. If you have any other questions you’d
             like answered please feel free to email us.
           </p>

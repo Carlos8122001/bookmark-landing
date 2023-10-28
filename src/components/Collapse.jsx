@@ -10,7 +10,7 @@ export default function Collapse({ title, text }) {
         />
 
         <span className="bg-transparent h-12 w-full  flex items-center pb-3 border-b-2 peer-checked:border-none">
-          <h1 className="text-base xl:text-xl font-medium text-black">{title}</h1>
+          <h1 className="text-base lg:text-xl font-medium text-black">{title}</h1>
         </span>
 
         <svg
@@ -23,7 +23,7 @@ export default function Collapse({ title, text }) {
         </svg>
 
         <div className="bg-white overflow-hidden  max-h-0  peer-checked:max-h-full border-0 peer-checked:border-collapse peer-checked:border-b-2">
-          <p className="py-8 text-base xl:text-xl">{text}</p>
+          <p className="py-8 text-base lg:text-xl">{text}</p>
         </div>
       </div>
     </>
