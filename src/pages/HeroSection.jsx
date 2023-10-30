@@ -25,10 +25,10 @@ export default function HeroSection() {
             </p>
           </span>
           <div className="w-full flex justify-center lg:justify-start gap-x-4 mt-8">
-            <button className="px-4 py-3 lg:px-6 lg:py-4 bg-[#5368df] rounded text-[#fff] font-semibold">
+            <button className="px-4 py-3 lg:px-6 lg:py-4 bg-[#5368df] border-2 border-transparent rounded text-[#fff] font-semibold hover:bg-transparent hover:text-[#5368df] hover:border-[#5368df] hover:border-2 transition-all duration-300">
               Get it on Chrome
             </button>
-            <button className="px-4 py-3 lg:px-6 lg:py-4 bg-gray-100 rounded text-[#9194a1] font-semibold shadow-xl">
+            <button className="px-4 py-3 lg:px-6 lg:py-4 bg-gray-100 rounded text-[#9194a1] font-semibold shadow-xl border-2 border-transparent hover:bg-transparent hover:text-[#242946] hover:border-[#242946] hover:border-2 transition-all duration-300">
               Get it on Firefox
             </button>
           </div>

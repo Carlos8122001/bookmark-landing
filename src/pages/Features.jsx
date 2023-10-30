@@ -23,9 +23,9 @@ export default function Features() {
             onClick={() => setTabs(0)}
           >
             <button
-              className={`text-[#242946] p-4 whitespace-nowrap  ${
-                tabs === 0 ? "border-b-4 border-red-500" : ""
-              } font-semibold text-lg`}
+              className={`text-[#242946] p-4 whitespace-nowrap transition-all duration-300  ${
+                tabs === 0 ? "border-b-4 border-red-500" : "hover:text-[#fa5757]"
+              } font-semibold text-lg `}
             >
               Simple Bookmarking
             </button>
@@ -35,8 +35,8 @@ export default function Features() {
             onClick={() => setTabs(1)}
           >
             <button
-              className={`text-[#242946] p-4  ${
-                tabs === 1 ? "border-b-4 border-red-500" : ""
+              className={`text-[#242946] p-4 transition-all duration-300  ${
+                tabs === 1 ? "border-b-4 border-red-500" : "hover:text-[#fa5757]"
               } font-semibold text-lg`}
             >
               Speedy Searching
@@ -47,8 +47,8 @@ export default function Features() {
             onClick={() => setTabs(2)}
           >
             <button
-              className={`text-[#242946]  p-4 border-b-2 border-indigo-50  font-semibold text-lg ${
-                tabs === 2 ? "border-b-4 border-red-500 " : ""
+              className={`text-[#242946] transition-all duration-300  p-4 border-b-2 border-indigo-50  font-semibold text-lg ${
+                tabs === 2 ? "border-b-4 border-red-500 " : "hover:text-[#fa5757] "
               }`}
             >
               Easy Sharing

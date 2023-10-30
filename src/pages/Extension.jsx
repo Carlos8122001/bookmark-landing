@@ -22,13 +22,13 @@ export default function Extension() {
               alt="chrome"
               className="object-cover object-center w-36 mx-auto mb-7"
             />
-            <h2 className="font-bold text-[#242946] text-xl mb-1 ">
+            <h2 className="font-bold text-[#242946] text-xl mb-1  ">
               Add to Chrome
             </h2>
             <h3 className="text-base text-[#9194a1]">Minimum version 62</h3>
             <div className="mt-10  w-full">
               <img src="/images/bg-dots.svg" alt="dots" className="w-full h-full mb-5" />
-              <button className="w-[80%] py-3 rounded bg-[#5368df] font-bold text-white">Add & Install Extension</button>
+              <button className="w-[80%] py-3 rounded border-2 border-transparent bg-[#5368df] font-bold text-white transition-all duration-300 hover:bg-transparent hover:border-[#5368df] hover:text-[#5368df]">Add & Install Extension</button>
             </div>
           </div>
 
@@ -44,7 +44,7 @@ export default function Extension() {
             <h3 className="text-base text-[#9194a1]">Minimum version 55</h3>
             <div className="mt-10  w-full">
               <img src="/images/bg-dots.svg" alt="dots" className="w-full h-full mb-5" />
-              <button className="w-[80%] py-3 rounded bg-[#5368df] font-bold text-white">Add & Install Extension</button>
+              <button className="w-[80%] py-3 rounded border-2 border-transparent bg-[#5368df] font-bold text-white transition-all duration-300 hover:bg-transparent hover:border-[#5368df] hover:text-[#5368df]">Add & Install Extension</button>
             </div>
           </div>
 
@@ -60,7 +60,7 @@ export default function Extension() {
             <h3 className="text-base text-[#9194a1]">Minimum version 46</h3>
             <div className="mt-10  w-full">
               <img src="/images/bg-dots.svg" alt="dots" className="w-full h-full mb-5" />
-              <button className="w-[80%] py-3 rounded bg-[#5368df] font-bold text-white">Add & Install Extension</button>
+              <button className="w-[80%] py-3 rounded border-2 border-transparent bg-[#5368df] font-bold text-white transition-all duration-300 hover:bg-transparent hover:border-[#5368df] hover:text-[#5368df]">Add & Install Extension</button>
             </div>
           </div>
         </section>
